@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-from multiplication import LevelMultiplication1
+from multiplication import Multiplication
 
 class GamePlay:
 
@@ -39,7 +39,7 @@ class GamePlay:
 			# Adding back button
 			self.add_button(self.back_img, self.back_img_hovered, 100, 70, self.back_press)
 
-			# Adding mulitplicatin skill 1 level
+			# Adding mulitplication skill 1 level
 			self.add_button(self.button_multiplication_skill_1_img, self.button_multiplication_skill_1_img_hovered, 225, 150, self.multiplication_skill_1)
 
 			if self.back_pressed == True:
@@ -55,7 +55,7 @@ class GamePlay:
 		time.sleep(0.1)
 
 	def multiplication_skill_1(self):
-		skill_level = LevelMultiplication1(self.gameDisplay, self.clock)
+		skill_level = Multiplication(self.gameDisplay, self.clock)
 		skill_level.start()
 
 	def quitgame(self):
