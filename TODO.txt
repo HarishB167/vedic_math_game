@@ -1,0 +1,25 @@
+
+multiplication.py
+Create message box for correct answer in InputBox.
+
+
+# Know about these functions
+#
+# rect.collidepoint(event.pos)
+# Returns true if the given point is inside the rectangle
+
+# FONT.render(text, True, color)
+# draw text on a new Surface
+
+# txt_surface.get_width()
+# Getting width of Surface (object)
+
+# pg.draw.rect(screen, color, rect, 2)
+# Draws a rectangle on the given surface.
+# https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect
+
+# pg.Rect(100, 100, 140, 32)
+# pygame object for storing rectangular coordinates
+
+# FONT.render(text, True, color)
+# draw text on a new Surface
