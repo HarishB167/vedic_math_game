@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-from multiplication import Multiplication
+from multiplication.multiplication_skill1 import Multiplication
 
 class GamePlay:
 

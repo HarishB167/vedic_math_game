@@ -4,10 +4,8 @@ TODO
 ------------------------------------------------------
 multiplication.py
 
-Splitting into multiple levels.
-Level 1 - Adding num1 and (num2-10)
-Level 2 - Multiplying differences - (num1-10)*(num2-10)
-Level 3 - Final Operation
+Making skill level 2
+make module type folder for multiplication.
 ------------------------------------------------------
 ********************************************************************************
 
@@ -18,6 +16,13 @@ DONE
 ------------------------------------------------------
 
 multiplication.py
+
+Splitting into multiple levels.
+Level 1 - Adding num1 and (num2-10) : Done
+Level 2 - Multiplying differences - (num1-10)*(num2-10) : Done
+Level 3 - Final Operation : Done
+
+
 Create message box for correct answer in InputBox.
 
 
